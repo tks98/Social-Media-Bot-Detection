@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 
 def main():
-    # parse the training data, declare words 
+    # parse the training data
     data = pandas.read_csv('Data/Cleaned_TrainData.csv', encoding = "ISO-8859-1")
     
     # clean data 
