@@ -24,7 +24,7 @@ def main():
     y = data[features].iloc[:,-1] # dependant target variable (bot indication)
 
     # split dataset into training and test sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=110)
     
     # preform predictions using Decision Tree classifier
     DecisionTree(X_train, X_test, y_train, y_test)
